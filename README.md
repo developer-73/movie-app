@@ -1,4 +1,4 @@
-## View this app at: https://developer-73.github.io/movies-app/
+## View this app at: https://developer-73.github.io/movie-app/
 
 ## How To Install.
 
