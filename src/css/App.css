@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.App {
+  /* text-align: center; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  height: 120px;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 0 10px 7px rgba(0,0,0,0.3)
+}
+
+.App-header-center {
+  width: 40%;
+  margin-left: auto;
+}
+
+.App-header-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25%;
+  margin-top: 75px;
+}
+
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.subheader-caption {
+  margin: 20px 7%;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.active {
+  fill: white;
+}
+
+.inactive {
+  fill: grey;
+}
+
+.active:hover,
+.inactive:hover {
+  fill: lightgrey;
+}
+
+.loader {
+  align-self: center;
+  margin:auto;
+  margin-top: 100px;
+}
+
+
+.movie-row {
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  margin-bottom: 20px;
+}
+
+.movie-row:hover {
+  cursor: pointer;
+  background: rgba(220,220,220,0.3);
+  transition: 0.2s;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.movie-row-content {
+  display: flex;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+
+
+.movies {
+  margin: 0 8%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-caption {
+  border-top: 1px solid lightgrey;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+
+.crawl {
+  margin-top: 20px;
+}
+
+.welcome {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+
+.welcome-inner {
+  margin-top: 15%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .App-header{
+    flex-direction: column;
+    height: 160px;
+  }
+  .App-header-center{
+    width: 90%;
+    margin: 10px 0px;
+  }
+}
