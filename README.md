@@ -6,7 +6,11 @@ Run this app by directly opening the above link or follow steps below to set up 
 Clone this project<br>
 Start by installing npm if you don't have it already.<br>
 Navigate to Project Directory by :<br>
-```cd movies-app <br>
-run following commands : <br>
-npm install <br>
-npm start or react-scripts start<br>```
+```
+cd movies-app
+```
+Run following commands : <br>
+```
+npm install 
+npm start or react-scripts start
+```
